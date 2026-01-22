@@ -13,7 +13,7 @@ norm_pdf <- function(mu, sigma, x) {
 # Compute PDF for all x
 pdf_vals <- norm_pdf(mu, sigma, x_vals)
 pdf_vals <- dnorm(x_vals, mu, sigma)
-ح
+
 
 # Plot PDF
 plot(x_vals, pdf_vals,
